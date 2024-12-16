@@ -40,11 +40,7 @@ The **VRNN** leverages variational dropout to regularize the network, reducing o
 - **SMS Spam Collection Dataset**: The dataset contains 5,574 SMS messages, categorized as "spam" or "ham".  
 - **Sentiment Analysis Dataset**: Contains 1.6 million labeled tweets for sentiment classification ("positive" or "negative").
 
-### Notebooks
-
-- **`train_vrnn.ipynb`**  
-   Jupyter notebook for training the VRNN models on the datasets.
-
+Dataset can be accessed from below link : https://drive.google.com/drive/folders/1qkDN62pPlfKMzMN39iAnR9h0XKqehqeK?usp=sharing
 ### Results
 
 Model performance and evaluation results, including accuracy, precision, recall, and F1-score, can be found in the report. The VRNN model with variational dropout achieved an accuracy of **88.45%** on Sentiment Analysis and **97.67%** on Spam Classification.
