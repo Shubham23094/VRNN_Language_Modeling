@@ -38,7 +38,7 @@ The **VRNN** leverages variational dropout to regularize the network, reducing o
 ### Datasets
 
 - **SMS Spam Collection Dataset**: The dataset contains 5,574 SMS messages, categorized as "spam" or "ham".  
-- **Sentiment Analysis Dataset**: Contains 1.6 million labeled tweets for sentiment classification ("positive" or "negative").
+- **Sentiment Analysis Dataset**: Contains million labeled tweets for sentiment classification ("positive" or "negative").
 
 Dataset can be accessed from below link : https://drive.google.com/drive/folders/1qkDN62pPlfKMzMN39iAnR9h0XKqehqeK?usp=sharing
 ### Results
