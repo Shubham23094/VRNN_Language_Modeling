@@ -11,7 +11,7 @@ The project compares VRNN with Simple RNN and Bayesian RNN models in two classif
 The **VRNN** leverages variational dropout to regularize the network, reducing overfitting and improving generalization. It combines the strengths of RNNs for sequential data modeling and VAEs for uncertainty estimation. The model has been evaluated on two datasets:
 
 - **SMS Spam Collection Dataset**: Contains 5,574 SMS messages, categorized into "ham" (non-spam) and "spam" labels.
-- **Sentiment Analysis Dataset**: Contains 1.6 million tweets labeled as "positive" or "negative" based on sentiment.
+- **Sentiment Analysis Dataset**: Contains tweets labeled as "positive" or "negative" based on sentiment.
 
 ## Key Features
 
