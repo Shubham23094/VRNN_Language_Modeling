@@ -56,11 +56,8 @@ To install and run the project, make sure to have the following dependencies:
 1. **Python 3.7+**
 2. Install the required Python libraries:
 
-```bash
-pip install -r requirements.txt
 
-
-Requirements
+## Requirements
 The required libraries for running the scripts and models are:
 
 torch (PyTorch)
@@ -72,7 +69,7 @@ tensorflow (if using any dependencies for RNNs)
 tqdm (for progress bars during training)
 A requirements.txt file is provided with the necessary libraries.
 
-Usage
+## Usage
 Training the VRNN Model
 To train the VRNN model with variational dropout:
 python vrnn_with_dropout.py
@@ -83,21 +80,21 @@ python simple_rnn.py
 Sampling Predictions with Uncertainty
 For uncertainty-aware predictions (VRNN with variational dropout), use the posterior sampling technique provided in vrnn_with_dropout.py to get both predicted labels and uncertainty estimates.
 
-Results
-Model performance (accuracy) on the Sentiment Analysis and Spam Classification datasets:
+## Results
+### Model Performance (Accuracy) on Sentiment Analysis and Spam Classification Datasets
 
-Model	Sentiment Analysis Accuracy (%)	Spam Classification Accuracy (%)
-VRNN with Variational Dropout	88.45%	97.67%
-VRNN without Variational Dropout	87.50%	97.67%
-Simple RNN	88.38%	97.49%
-The VRNN outperforms both Simple RNN and Bayesian RNN in terms of classification accuracy and recall.
+| Model                             | Sentiment Analysis Accuracy (%) | Spam Classification Accuracy (%) |
+|-----------------------------------|---------------------------------|----------------------------------|
+| VRNN with Variational Dropout     | 88.45%                          | 97.67%                           |
+| VRNN without Variational Dropout  | 87.50%                          | 97.67%                           |
+| Simple RNN                        | 88.38%                          | 97.49%                           |
 
-Conclusion
+## Conclusion
 This repository presents a novel Variational Recurrent Neural Network (VRNN) architecture, combining the benefits of variational autoencoders and recurrent networks for improved text classification and uncertainty estimation. The model's performance on both sentiment analysis and spam classification demonstrates its ability to model uncertainty effectively while achieving competitive classification accuracy.
 
 Future work will focus on applying VRNN to other NLP tasks like machine translation and text generation. Enhanced uncertainty estimation will be explored in active learning and out-of-domain detection tasks.
 
-References
+## References
 Variational Recurrent Neural Networks (VRNN)
 Original research paper and model implementation details can be found in the project report.
 
